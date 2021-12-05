@@ -1,0 +1,150 @@
+
+
+
+@font-face {
+	font-family: 'Zetafonts - Blacker Pro Titling Bold'; 
+	src: url("fonts/Zetafonts_Blacker_Pro_Titling_Bold.otf"); 
+}
+
+@font-face {
+	font-family: 'Zetafonts - Blacker Pro Text Light'; 
+	src: url("fonts/Zetafonts - Blacker Pro Text Light.otf"); 
+}
+
+@font-face {
+	font-family: 'Zetafonts - Blacker Pro Display Condensed Light'; 
+	src: url("fonts/Zetafonts - Blacker Pro Display Condensed Light.otf"); 
+}
+
+body, .navbar, a, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  font-family: "Zetafonts - Blacker Pro Text Light";
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #FAB001;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #222021;
+  max-width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 0;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+.navbar-brand {
+  font-family: "Zetafonts - Blacker Pro Titling Bold" !important;
+}
+.brand-color {
+  color: #FAB001;
+}
+
+.navbar {
+  background-color: #222021;
+}
+.col-img-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.demo-slide {
+  height: calc(100vh - 160px);
+  padding-top: 17%;
+}
+.demo-slide h1 {
+  font-size: 56px;
+  font-family: "Zetafonts - Blacker Pro Titling Bold" !important;
+}
+.col-img-container {
+  width: 970px;
+  height: 970px;
+  background-image: url(img/pizza1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -200px;
+  top: 90px;
+}
+.comments {
+  background-color: #1A1819;
+  z-index: 10;
+  padding-bottom: 10px;
+  position: relative;
+}
+.btn-demo {
+  padding: 20px;
+  background: #FAB001;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "Zetafonts - Blacker Pro Text Light" !important;
+    transition: .3s;
+}
+.btn-demo:hover {
+  color: #FAB001;
+  background: white;
+  text-decoration: none;
+}
+.special-link {
+  color: #FAB001;
+}
+.special-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  width: calc(33% - 12px);
+  height: auto;
+  background-color: rgb(158, 142, 123);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 5px 5px 5px;
+}
+.card .card-img-top {
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.btn-container  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menu-container {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.hiaderh1 {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  max-height: 4em;
+  height: 4em;
+  overflow-y: auto;
+}
